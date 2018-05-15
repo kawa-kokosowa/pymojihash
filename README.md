@@ -1,5 +1,8 @@
 # Python 3 String to Emoji Hash
 
+[![Build
+Status](https://travis-ci.org/lily-fyi/pymojihash.svg?branch=master)](https://travis-ci.org/lily-fyi/pymojihash)
+
 Hash a unicode string to emoji.
 
 Based on the npm package [hash-emoji by
