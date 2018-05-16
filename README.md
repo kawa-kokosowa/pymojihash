@@ -27,7 +27,7 @@ hash_to_emoji('lol')
 ```
 
 There is a limited number of emojis outputs (see: `emojis.json` in this
-package) so if you increase the `hash_length` the less likely youa re to
+package) so if you increase the `hash_length` the less likely you are to
 encounter different values which produce the same output/hash/emoji(s):
 
 ```python
