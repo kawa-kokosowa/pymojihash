@@ -8,6 +8,8 @@ Hash a unicode string to emoji.
 Based on the npm package [hash-emoji by
 earobinson](https://github.com/earobinson/hash-emoji).
 
+[View a live demo on my website bubblebbs.cafe!](http://bubblebbs.cafe)
+
 You can run tests simply by running `pytest`.
 
 ## Examples
