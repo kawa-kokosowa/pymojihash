@@ -10,6 +10,8 @@ earobinson](https://github.com/earobinson/hash-emoji).
 
 [View a live demo on my website bubblebbs.cafe!](http://bubblebbs.cafe)
 
+![pymojihash in action on bubblebbs.cafe!](https://i.imgur.com/7FlSOop.png)
+
 You can run tests simply by running `pytest`.
 
 ## Examples
