@@ -29,6 +29,7 @@ import json
 import pkgutil
 
 
+EMOJIS = json.loads(pkgutil.get_data('pymojihash', 'emojis.json'))
 FLAG_EMOJIS_START = 1021
 FLAG_EMOJIS_END = 1276
 
@@ -44,10 +45,7 @@ def hash_to_emoji(string_to_hash: str, hash_length: int = 1, no_flags: bool = Fa
 
     """
 
-
-    emojis = json.loads(pkgutil.get_data('pymojihash', 'emojis.json'))
-    if no_flags:
-        emojis = emojis[:FLAG_EMOJIS_START] + emojis[FLAG_EMOJIS_END:]
+    emojis = EMOJIS[:FLAG_EMOJIS_START] + EMOJIS[FLAG_EMOJIS_END:] if no_flags else EMOJIS
     number_of_emojis = len(emojis)
 
     string_to_hash = string_to_hash.encode('utf8')
