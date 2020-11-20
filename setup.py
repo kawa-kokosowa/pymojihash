@@ -1,10 +1,12 @@
-from setuptools import setup
 import ast
+import io
+
+from setuptools import setup
 
 from pymojihash import __version__
 
 
-with open('pymojihash/pymojihash.py') as f:
+with io.open('pymojihash/pymojihash.py', 'r', encoding='utf8') as f:
     module = ast.parse(f.read())
     readme_docstring = ast.get_docstring(module)
 
